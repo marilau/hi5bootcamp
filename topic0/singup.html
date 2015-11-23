@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Sing up!</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+  </head>
+  <body>
+    <header>
+      <h1>Sing up Form</h1>
+    </header>
+    <div>
+        <form action="singup.html">
+          <div>
+            <label>Firt name<span style="color:red;">*</span></label>
+            <input type="text" name="firtName" id="firtname"  style="width: 30%" required/>
+          </div>
+          <div>
+            <label>Last name<span style="color:red;">*</span></label>
+            <input type="text" name="lastName" id="lastName"  style="width: 30%" required/>
+          </div>
+          <div>
+            <label>Email<span style="color:red;">*</span></label>
+            <input class="email" id="email" type="email" name="email" style="width: 30%" required/>
+          </div>
+          <div>
+            <label>Birthday<span style="color:red;">*</span></label>
+            <input type="date" name="birthday" id="birthday"  style="width: 30%"/>
+          </div>
+          <div>
+            <label>Sports</label>
+            <select id="sports" name="sports" style="width: 10%">
+              <option></option>
+              <option>Football</option>
+              <option>Tenis</option>
+              <option>Siesta</option>
+              <option>Other</option>
+            </select>
+          </div>
+          <div>
+            <label>Bio</label>
+            <textarea name="bio" id="bio"  style="width: 60%"></textarea>
+          </div>
+          <div>
+              <input type="submit" value="Submit!"/>
+          </div>
+      </form>
+    </div>
+  </body>
+</html>
